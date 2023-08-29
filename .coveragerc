@@ -1,0 +1,11 @@
+[run]
+source = 
+        app
+        tests
+
+omit = 
+        env/*
+        */tests/*
+        */__init__.py 
+
+[report]               
